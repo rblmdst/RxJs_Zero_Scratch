@@ -1,0 +1,27 @@
+{
+  "name": "rxjs_zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node --watch dist/index.js",
+    "start:bs": "node --watch dist/behaviour-subject.js",
+    "start:cvh": "node --watch dist/cold-vs-hot.js",
+    "start:e": "node --watch dist/error.js",
+    "start:ns": "node --watch dist/nested-subscriptions.js",
+    "start:o": "node --watch dist/operator.js",
+    "start:rs": "node --watch dist/replay-subject.js",
+    "start:s": "node --watch dist/subject.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
